@@ -1,0 +1,40 @@
+{
+    "General Relics": {
+        "Pendent of the Emperor's Judgement": {
+            "cost": 1,
+            "description": "Once per battle, a unit within 6\" can re-roll all failed hit rolls."
+        },
+        "Blade of the Relic Bearer": {
+            "cost": 1,
+            "description": "Melee weapon gains +1 Strength and +1 Damage."
+        },
+        "Armour of the Crusade": {
+            "cost": 1,
+            "description": "+1 to save throws."
+        },
+        "Helm of the Paragon": {
+            "cost": 1,
+            "description": "+1 Leadership."
+        }
+    },
+    "Space Marine Relics": {
+        "The Shield of Eternity": {
+            "cost": 1,
+            "description": "Bearer has a 4+ invulnerable save."
+        },
+        "Burning Blade": {
+            "cost": 1,
+            "description": "Melee weapon gains S+2, AP-4, D3 damage."
+        }
+    },
+    "Astra Militarum Relics": {
+        "Relic of the Lost Cadia": {
+            "cost": 1,
+            "description": "Units within 6\" automatically pass morale tests."
+        },
+        "The Death Mask of Ollanius": {
+            "cost": 1,
+            "description": "Bearer has a 4+ invulnerable save."
+        }
+    }
+}
