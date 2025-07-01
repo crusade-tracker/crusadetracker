@@ -1,44 +1,7 @@
 {
-    "Physical Scars": {
-        "Grievous Injury": {
-            "description": "Permanent injury reduces effectiveness. -1 to a random characteristic."
-        },
-        "Shell Shock": {
-            "description": "Traumatized by bombardment. -1 to hit rolls when enemy is in cover."
-        },
-        "Demolished": {
-            "description": "Partially destroyed. -1 Wound."
-        },
-        "Maimed": {
-            "description": "Permanently crippled. -1 to Move characteristic."
-        },
-        "Blinded": {
-            "description": "Sight permanently damaged. -1 to hit rolls with ranged weapons."
-        },
-        "Hobbled": {
-            "description": "Movement impaired. Cannot advance and charge in same turn."
-        }
-    },
-    "Mental Scars": {
-        "Haunted": {
-            "description": "Plagued by memories. -1 to Leadership."
-        },
-        "Jumpy": {
-            "description": "Startled easily. Must test to charge units in cover."
-        },
-        "Dishonoured": {
-            "description": "Brought shame upon themselves. Cannot be selected for upgrades."
-        },
-        "Bitter": {
-            "description": "Consumed by hatred. Must charge nearest enemy if possible."
-        },
-        "Craven": {
-            "description": "Lost their nerve. -2 to charge rolls."
-        }
-    },
-    "Revival Scars": {
-        "Resurrected": {
-            "description": "This unit has been brought back from the brink of destruction. Consider a narrative penalty or a minor stat reduction (e.g., -1 to one characteristic, cannot auto-pass morale)."
-        }
+  "test scar": {
+    "ouch": {
+      "description": "lets see if this works"
     }
+  }
 }
