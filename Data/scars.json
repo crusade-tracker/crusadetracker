@@ -3,5 +3,10 @@
     "tst": {
       "description": "test"
     }
+  },
+  "lets": {
+    "try": {
+      "description": "this agian"
+    }
   }
 }
