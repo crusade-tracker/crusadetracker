@@ -1,1 +1,17 @@
-
+{
+  "Killed in Action": {
+    "description": "This unit is permanently removed from your roster. All Crusade points and experience are lost."
+  },
+  "Missing in Action": {
+    "description": "This unit is removed from your roster for D3 games. After D3 games, it returns with one new Battle Scar."
+  },
+  "Severely Wounded": {
+    "description": "This unit cannot be selected for the next game. After one game, it can be selected again but gains one new Battle Scar."
+    },
+  "Captured": {
+    "description": "This unit is removed from your roster until you play a specific mission to rescue them (custom mission). If you do not play a rescue mission within 3 games, they are considered Killed in Action."
+  },
+  "Hospitalised": {
+    "description": "This unit cannot be selected for the next game, but does not gain a Battle Scar."
+  }
+}
