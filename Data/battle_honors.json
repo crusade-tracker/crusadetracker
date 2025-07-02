@@ -1,0 +1,72 @@
+{
+  "Battle Traits": {
+    "Blooded": {
+      "cost": 1,
+      "description": "This unit has survived its first battle. +1 to Nerve tests."
+    },
+    "Battle-Hardened": {
+      "cost": 2,
+      "description": "This unit has proven itself in multiple engagements. +1 to hit rolls in Fight phase."
+    },
+    "Honoured": {
+      "cost": 3,
+      "description": "This unit has brought glory to the Chapter. Can re-roll one hit roll per turn."
+    },
+    "Legendary": {
+      "cost": 4,
+      "description": "This unit is spoken of in hushed tones. +1 Attack characteristic."
+    },
+    "Relic Bearer": {
+      "cost": 2,
+      "description": "This unit carries an ancient relic into battle. +1 to save rolls."
+    },
+    "Marked for Greatness": {
+      "cost": 3,
+      "description": "This unit is destined for glory. Gains an additional Warlord Trait."
+    }
+  },
+  "Weapon Enhancements": {
+    "Master-crafted Weapon": {
+      "cost": 1,
+      "description": "One weapon becomes master-crafted. Re-roll damage rolls of 1."
+    },
+    "Venerable Weapon": {
+      "cost": 2,
+      "description": "An ancient weapon of great power. +1 to wound rolls."
+    },
+    "Blessed Weapon": {
+      "cost": 2,
+      "description": "Weapon blessed by the Emperor. Deals mortal wounds on 6s to wound."
+    },
+    "Relic Weapon": {
+      "cost": 3,
+      "description": "A legendary weapon of immense power. +1 Strength, +1 AP."
+    },
+    "Artificer Weapon": {
+      "cost": 2,
+      "description": "Perfectly crafted weapon. +1 to hit rolls."
+    }
+  },
+  "Psychic Traits": {
+    "Psyker": {
+      "cost": 2,
+      "description": "This unit manifests psychic powers. Knows one additional psychic power."
+    },
+    "Psychic Mastery": {
+      "cost": 3,
+      "description": "Master of the warp. +1 to cast rolls, knows 2 additional powers."
+    },
+    "Warp Sight": {
+      "cost": 1,
+      "description": "Can see beyond the veil. Ignores cover when shooting."
+    },
+    "Mind Shield": {
+      "cost": 2,
+      "description": "Protected from psychic attack. 5+ invulnerable save against psychic attacks."
+    },
+    "Psychic Familiar": {
+      "cost": 1,
+      "description": "Accompanied by a psychic creature. Re-roll failed psychic tests."
+    }
+  }
+}
