@@ -1,393 +1,140 @@
+{
+  "ranged": {
     "Basic Weapons": {
-        "Bolter": {
-            "name": "Bolter",
-            "range": "24\"",
-            "attacks": "2",
-            "bs": "3+",
-            "strength": "4",
-            "ap": "0",
-            "damage": "1",
-            "abilities": "Rapid Fire 1"
-        },
-        "Bolt Rifle": {
-            "name": "Bolt Rifle",
-            "range": "30\"",
-            "attacks": "2",
-            "bs": "3+",
-            "strength": "4",
-            "ap": "-1",
-            "damage": "1",
-            "abilities": "Rapid Fire 1"
-        },
-        "Lasgun": {
-            "name": "Lasgun",
-            "range": "24\"",
-            "attacks": "1",
-            "bs": "4+",
-            "strength": "3",
-            "ap": "0",
-            "damage": "1",
-            "abilities": "Rapid Fire 1"
-        },
-        "Autogun": {
-            "name": "Autogun",
-            "range": "24\"",
-            "attacks": "1",
-            "bs": "4+",
-            "strength": "3",
-            "ap": "0",
-            "damage": "1",
-            "abilities": "Rapid Fire 1"
-        },
-        "Shotgun": {
-            "name": "Shotgun",
-            "range": "12\"",
-            "attacks": "2",
-            "bs": "3+",
-            "strength": "3",
-            "ap": "0",
-            "damage": "1",
-            "abilities": "Assault 2"
-        },
-        "Carbine": {
-            "name": "Carbine",
-            "range": "18\"",
-            "attacks": "2",
-            "bs": "3+",
-            "strength": "4",
-            "ap": "0",
-            "damage": "1",
-            "abilities": "Assault 2"
-        }
-    },
-    "Special Weapons": {
-        "Plasma Gun": {
-            "name": "Plasma Gun",
-            "range": "24\"",
-            "attacks": "1",
-            "bs": "3+",
-            "strength": "7",
-            "ap": "-3",
-            "damage": "2",
-            "abilities": "Gets Hot"
-        },
-        "Meltagun": {
-            "name": "Meltagun",
-            "range": "12\"",
-            "attacks": "1",
-            "bs": "3+",
-            "strength": "8",
-            "ap": "-4",
-            "damage": "D6",
-            "abilities": "Melta"
-        },
-        "Flamer": {
-            "name": "Flamer",
-            "range": "12\"",
-            "attacks": "D6",
-            "bs": "Auto",
-            "strength": "4",
-            "ap": "0",
-            "damage": "1",
-            "abilities": "Torrent"
-        },
-        "Grav-gun": {
-            "name": "Grav-gun",
-            "range": "18\"",
-            "attacks": "2",
-            "bs": "3+",
-            "strength": "5",
-            "ap": "-1",
-            "damage": "1",
-            "abilities": "Gravitational"
-        },
-        "Storm Bolter": {
-            "name": "Storm Bolter",
-            "range": "24\"",
-            "attacks": "2",
-            "bs": "3+",
-            "strength": "4",
-            "ap": "0",
-            "damage": "1",
-            "abilities": "Rapid Fire 2"
-        },
-        "Combi-plasma": {
-            "name": "Combi-plasma",
-            "range": "24\"",
-            "attacks": "1",
-            "bs": "3+",
-            "strength": "7",
-            "ap": "-3",
-            "damage": "2",
-            "abilities": "Combi, Gets Hot"
-        },
-        "Combi-melta": {
-            "name": "Combi-melta",
-            "range": "12\"",
-            "attacks": "1",
-            "bs": "3+",
-            "strength": "8",
-            "ap": "-4",
-            "damage": "D6",
-            "abilities": "Combi, Melta"
-        }
+      "Bolter": {
+        "name": "Bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": "Rapid Fire 1"
+      },
+      "Bolt Rifle": {
+        "name": "Bolt Rifle",
+        "range": "30\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": "Rapid Fire 1"
+      },
+      "Lasgun": {
+        "name": "Lasgun",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "3",
+        "ap": "0",
+        "damage": "1",
+        "abilities": ""
+      }
     },
     "Heavy Weapons": {
-        "Heavy Bolter": {
-            "name": "Heavy Bolter",
-            "range": "36\"",
-            "attacks": "3",
-            "bs": "4+",
-            "strength": "5",
-            "ap": "-1",
-            "damage": "2",
-            "abilities": "Heavy 3"
-        },
-        "Lascannon": {
-            "name": "Lascannon",
-            "range": "48\"",
-            "attacks": "1",
-            "bs": "4+",
-            "strength": "9",
-            "ap": "-3",
-            "damage": "D6",
-            "abilities": "Heavy 1"
-        },
-        "Missile Launcher": {
-            "name": "Missile Launcher",
-            "range": "48\"",
-            "attacks": "1",
-            "bs": "4+",
-            "strength": "9",
-            "ap": "-2",
-            "damage": "D6",
-            "abilities": "Heavy 1"
-        },
-        "Autocannon": {
-            "name": "Autocannon",
-            "range": "48\"",
-            "attacks": "2",
-            "bs": "4+",
-            "strength": "7",
-            "ap": "-1",
-            "damage": "2",
-            "abilities": "Heavy 2"
-        },
-        "Multi-melta": {
-            "name": "Multi-melta",
-            "range": "24\"",
-            "attacks": "2",
-            "bs": "4+",
-            "strength": "8",
-            "ap": "-4",
-            "damage": "D6",
-            "abilities": "Heavy 2, Melta"
-        },
-        "Plasma Cannon": {
-            "name": "Plasma Cannon",
-            "range": "36\"",
-            "attacks": "D3",
-            "bs": "4+",
-            "strength": "7",
-            "ap": "-3",
-            "damage": "2",
-            "abilities": "Heavy D3, Gets Hot"
-        },
-        "Assault Cannon": {
-            "name": "Assault Cannon",
-            "range": "24\"",
-            "attacks": "6",
-            "bs": "3+",
-            "strength": "6",
-            "ap": "-1",
-            "damage": "1",
-            "abilities": "Heavy 6"
-        }
+      "Heavy Bolter": {
+        "name": "Heavy Bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": "Heavy 3"
+      },
+      "Missile Launcher": {
+        "name": "Missile Launcher",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "D6",
+        "abilities": "Heavy 1"
+      },
+      "Multi-melta": {
+        "name": "Multi-melta",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": "Melta 2"
+      }
     },
-    "Pistols": {
-        "Bolt Pistol": {
-            "name": "Bolt Pistol",
-            "range": "12\"",
-            "attacks": "1",
-            "bs": "3+",
-            "strength": "4",
-            "ap": "0",
-            "damage": "1",
-            "abilities": "Pistol 1"
-        },
-        "Laspistol": {
-            "name": "Laspistol",
-            "range": "12\"",
-            "attacks": "1",
-            "bs": "4+",
-            "strength": "3",
-            "ap": "0",
-            "damage": "1",
-            "abilities": "Pistol 1"
-        },
-        "Plasma Pistol": {
-            "name": "Plasma Pistol",
-            "range": "12\"",
-            "attacks": "1",
-            "bs": "3+",
-            "strength": "7",
-            "ap": "-3",
-            "damage": "2",
-            "abilities": "Pistol 1, Gets Hot"
-        },
-        "Hand Flamer": {
-            "name": "Hand Flamer",
-            "range": "12\"",
-            "attacks": "D6",
-            "bs": "Auto",
-            "strength": "3",
-            "ap": "0",
-            "damage": "1",
-            "abilities": "Pistol D6, Torrent"
-        },
-        "Inferno Pistol": {
-            "name": "Inferno Pistol",
-            "range": "6\"",
-            "attacks": "1",
-            "bs": "3+",
-            "strength": "8",
-            "ap": "-4",
-            "damage": "D6",
-            "abilities": "Pistol 1, Melta"
-        }
-    },
-    "melee": {
-        "Basic Melee": {
-            "Chainsword": {
-                "name": "Chainsword",
-                "ws": "3+",
-                "attacks": "+1",
-                "strength": "User",
-                "ap": "0",
-                "damage": "1",
-                "abilities": "Extra Attack"
-            },
-            "Close Combat Weapon": {
-                "name": "Close Combat Weapon",
-                "ws": "3+",
-                "attacks": "1",
-                "strength": "User",
-                "ap": "0",
-                "damage": "1",
-                "abilities": "Basic"
-            },
-            "Combat Knife": {
-                "name": "Combat Knife",
-                "ws": "3+",
-                "attacks": "1",
-                "strength": "User",
-                "ap": "0",
-                "damage": "1",
-                "abilities": "Basic"
-            },
-            "Bayonet": {
-                "name": "Bayonet",
-                "ws": "4+",
-                "attacks": "1",
-                "strength": "User",
-                "ap": "0",
-                "damage": "1",
-                "abilities": "Basic"
-            }
-        },
-        "Power Weapons": {
-            "Power Fist": {
-                "name": "Power Fist",
-                "ws": "3+",
-                "attacks": "-1",
-                "strength": "x2",
-                "ap": "-2",
-                "damage": "2",
-                "abilities": "Unwieldy"
-            },
-            "Power Sword": {
-                "name": "Power Sword",
-                "ws": "3+",
-                "attacks": "1",
-                "strength": "+1",
-                "ap": "-3",
-                "damage": "1",
-                "abilities": "Powered"
-            },
-            "Power Axe": {
-                "name": "Power Axe",
-                "ws": "4+",
-                "attacks": "1",
-                "strength": "+1",
-                "ap": "-2",
-                "damage": "1",
-                "abilities": "Powered"
-            },
-            "Lightning Claw": {
-                "name": "Lightning Claw",
-                "ws": "3+",
-                "attacks": "1",
-                "strength": "+1",
-                "ap": "-2",
-                "damage": "1",
-                "abilities": "Re-roll wounds"
-            },
-            "Power Maul": {
-                "name": "Power Maul",
-                "ws": "3+",
-                "attacks": "+2",
-                "strength": "User",
-                "ap": "-1",
-                "damage": "1",
-                "abilities": "Powered"
-            }
-        },
-        "Specialist Weapons": {
-            "Thunder Hammer": {
-                "name": "Thunder Hammer",
-                "ws": "4+",
-                "attacks": "-1",
-                "strength": "x2",
-                "ap": "-2",
-                "damage": "3",
-                "abilities": "Unwieldy, Concussive"
-            },
-            "Force Weapon": {
-                "name": "Force Weapon",
-                "ws": "3+",
-                "attacks": "1",
-                "strength": "+2",
-                "ap": "-1",
-                "damage": "D3",
-                "abilities": "Force"
-            },
-            "Eviscerator": {
-                "name": "Eviscerator",
-                "ws": "4+",
-                "attacks": "-1",
-                "strength": "x2",
-                "ap": "-2",
-                "damage": "2",
-                "abilities": "Unwieldy"
-            },
-            "Chain Fist": {
-                "name": "Chain Fist",
-                "ws": "4+",
-                "attacks": "-1",
-                "strength": "x2",
-                "ap": "-3",
-                "damage": "2",
-                "abilities": "Unwieldy"
-            },
-            "Relic Blade": {
-                "name": "Relic Blade",
-                "ws": "3+",
-                "attacks": "+2",
-                "strength": "User",
-                "ap": "-3",
-                "damage": "2",
-                "abilities": "Master-crafted"
-            }
-        }
+    "Special Weapons": {
+      "Flamer": {
+        "name": "Flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": "Assault D6, Torrent"
+      },
+      "Meltagun": {
+        "name": "Meltagun",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": "Melta 2"
+      },
+      "Plasma Gun": {
+        "name": "Plasma Gun",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-3",
+        "damage": "1",
+        "abilities": "Rapid Fire 1, Hazardous (S8, AP-4, D2 when overcharged)"
+      }
     }
+  },
+  "melee": {
+    "Melee Weapons": {
+      "Chainsword": {
+        "name": "Chainsword",
+        "ws": "3+",
+        "attacks": "A",
+        "strength": "U",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": ""
+      },
+      "Power Sword": {
+        "name": "Power Sword",
+        "ws": "3+",
+        "attacks": "A",
+        "strength": "U",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": ""
+      },
+      "Thunder Hammer": {
+        "name": "Thunder Hammer",
+        "ws": "4+",
+        "attacks": "A",
+        "strength": "x2",
+        "ap": "-3",
+        "damage": "3",
+        "abilities": "Unwieldy"
+      },
+      "Combat Knife": {
+        "name": "Combat Knife",
+        "ws": "3+",
+        "attacks": "A",
+        "strength": "U",
+        "ap": "0",
+        "damage": "1",
+        "abilities": ""
+      }
+    }
+  }
 }
