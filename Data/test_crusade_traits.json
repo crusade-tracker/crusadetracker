@@ -1,0 +1,14 @@
+{
+  "Test Category": {
+    "Test Trait": {
+      "cost": 1,
+      "description": "This is a test trait created at 2025-07-03T02:30:00.236Z",
+      "requirements": "Test requirements"
+    }
+  },
+  "_metadata": {
+    "created": "2025-07-03T02:30:00.236Z",
+    "version": "1.0",
+    "test": true
+  }
+}
