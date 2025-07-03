@@ -30,9 +30,5 @@
       "description": "This unit has developed a grim obsession. +1 to wound rolls against Characters, but -1 to Leadership."
     },
     "Cowardice": "This unit's nerve has broken. Cannot perform Heroic Interventions."
-  },
-  "test": {
-    "type": "Physical",
-    "description": "this is a test"
   }
 }
