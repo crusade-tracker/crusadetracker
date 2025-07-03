@@ -32,5 +32,9 @@
     "Cowardice": {
       "description": "This unit's nerve has broken. Cannot perform Heroic Interventions."
     }
+  },
+  "tws": {
+    "type": "Physical",
+    "description": "sdfasdf"
   }
 }
