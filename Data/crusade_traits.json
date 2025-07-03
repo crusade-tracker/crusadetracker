@@ -75,5 +75,12 @@
       "description": "Test update added at 2025-07-03T03:36:25.382Z",
       "requirements": "Testing real file updates"
     }
+  },
+  "new trait": {
+    "new": {
+      "cost": 0,
+      "description": "NTEAWE",
+      "requirements": "NTES"
+    }
   }
 }
