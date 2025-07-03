@@ -69,13 +69,6 @@
       "description": "Accompanied by a psychic creature. Re-roll failed psychic tests."
     }
   },
-  "Test_2025-07-03T03-36-25-382Z": {
-    "Test Update": {
-      "cost": 2,
-      "description": "Test update added at 2025-07-03T03:36:25.382Z",
-      "requirements": "Testing real file updates"
-    }
-  },
   "new trait": {
     "new": {
       "cost": 0,
