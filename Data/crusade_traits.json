@@ -68,12 +68,5 @@
       "cost": 1,
       "description": "Accompanied by a psychic creature. Re-roll failed psychic tests."
     }
-  },
-  "new trait": {
-    "new": {
-      "cost": 0,
-      "description": "NTEAWE",
-      "requirements": "NTES"
-    }
   }
 }
