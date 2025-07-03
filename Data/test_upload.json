@@ -1,0 +1,9 @@
+{
+  "Test Category": {
+    "Test Trait": {
+      "cost": 1,
+      "description": "Test trait created at 2025-07-03T03:20:10.204Z",
+      "requirements": "Test requirements"
+    }
+  }
+}
