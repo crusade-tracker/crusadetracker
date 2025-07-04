@@ -1,78 +1,927 @@
-[
-  {
-    "id": "Space Marines",
-    "name": "Space Marines"
-  },
-  {
-    "id": "Chaos Space Marines",
-    "name": "Chaos Space Marines"
-  },
-  {
-    "id": "Astra Militarum",
-    "name": "Astra Militarum"
-  },
-  {
-    "id": "Orks",
-    "name": "Orks"
-  },
-  {
-    "id": "Aeldari",
-    "name": "Aeldari"
-  },
-  {
-    "id": "Drukhari",
-    "name": "Drukhari"
-  },
-  {
-    "id": "T'au Empire",
-    "name": "T'au Empire"
-  },
-  {
-    "id": "Necrons",
-    "name": "Necrons"
-  },
-  {
-    "id": "Tyranids",
-    "name": "Tyranids"
-  },
-  {
-    "id": "Adeptus Mechanicus",
-    "name": "Adeptus Mechanicus"
-  },
-  {
-    "id": "Adepta Sororitas",
-    "name": "Adepta Sororitas"
-  },
-  {
-    "id": "Imperial Knights",
-    "name": "Imperial Knights"
-  },
-  {
-    "id": "Chaos Knights",
-    "name": "Chaos Knights"
-  },
-  {
-    "id": "Chaos Daemons",
-    "name": "Chaos Daemons"
-  },
-  {
-    "id": "Genestealer Cults",
-    "name": "Genestealer Cults"
-  },
-  {
-    "id": "Leagues of Votann",
-    "name": "Leagues of Votann"
-  },
-  {
-    "id": "World Eaters",
-    "name": "World Eaters"
-  },
-  {
-    "id": "Imperial Agents",
-    "name": "Imperial Agents"
-  },
-  {
-    "id": "e4a54b23-b3fd-4a54-810b-0fb77edf71a4",
-    "name": "test"
-  }
-]
+{
+    "Space Marines": {
+        "Ultramarines": {
+            "color": "#0066cc",
+            "traits": [
+                "Courage and Honour",
+                "Tactical Doctrine"
+            ]
+        },
+        "Blood Angels": {
+            "color": "#cc0000",
+            "traits": [
+                "Red Thirst",
+                "Black Rage"
+            ]
+        },
+        "Dark Angels": {
+            "color": "#006600",
+            "traits": [
+                "Grim Resolve",
+                "Inner Circle"
+            ]
+        },
+        "Space Wolves": {
+            "color": "#666666",
+            "traits": [
+                "Savage Fury",
+                "Hunters Unleashed"
+            ]
+        },
+        "Imperial Fists": {
+            "color": "#ffcc00",
+            "traits": [
+                "Siege Masters",
+                "Bolter Drill"
+            ]
+        },
+        "Iron Hands": {
+            "color": "#333333",
+            "traits": [
+                "The Flesh is Weak",
+                "Machine Empathy"
+            ]
+        },
+        "Salamanders": {
+            "color": "#339933",
+            "traits": [
+                "Master Artisans",
+                "Flamecraft"
+            ]
+        },
+        "Raven Guard": {
+            "color": "#000000",
+            "traits": [
+                "Shadow Masters",
+                "Swift and Deadly"
+            ]
+        },
+        "White Scars": {
+            "color": "#ffffff",
+            "traits": [
+                "Lightning Assault",
+                "Born in the Saddle"
+            ]
+        },
+        "Black Templars": {
+            "color": "#000000",
+            "traits": [
+                "No Pity! No Remorse! No Fear!",
+                "Righteous Zeal"
+            ]
+        },
+        "Crimson Fists": {
+            "color": "#cc0000",
+            "traits": [
+                "No Matter the Odds",
+                "Bolter Fury"
+            ]
+        },
+        "Iron Fists": {
+            "color": "#404040",
+            "traits": [
+                "Siege Warfare",
+                "Stubborn Defiance"
+            ]
+        },
+        "Lamenters": {
+            "color": "#ffff00",
+            "traits": [
+                "Sons of Sanguinius",
+                "Cursed Founding"
+            ]
+        },
+        "Flesh Tearers": {
+            "color": "#800000",
+            "traits": [
+                "Fury of the Lost",
+                "Death Company"
+            ]
+        },
+        "Red Scorpions": {
+            "color": "#ff6600",
+            "traits": [
+                "Pure Gene-seed",
+                "Apothecary Expertise"
+            ]
+        }
+    },
+    "Chaos Space Marines": {
+        "Black Legion": {
+            "color": "#000000",
+            "traits": [
+                "Black Crusade",
+                "Chaos Ascendant"
+            ]
+        },
+        "Word Bearers": {
+            "color": "#800000",
+            "traits": [
+                "Dark Zealotry",
+                "Daemon Summoning"
+            ]
+        },
+        "Iron Warriors": {
+            "color": "#404040",
+            "traits": [
+                "Siege Lords",
+                "Cold Hatred"
+            ]
+        },
+        "Night Lords": {
+            "color": "#000080",
+            "traits": [
+                "Terror Tactics",
+                "From the Shadows"
+            ]
+        },
+        "World Eaters": {
+            "color": "#ff0000",
+            "traits": [
+                "Berzerker Assault",
+                "Blood for the Blood God"
+            ]
+        },
+        "Emperor's Children": {
+            "color": "#ff00ff",
+            "traits": [
+                "Flawless Perfection",
+                "Excess of Violence"
+            ]
+        },
+        "Death Guard": {
+            "color": "#006600",
+            "traits": [
+                "Plague Host",
+                "Inexorable Advance"
+            ]
+        },
+        "Thousand Sons": {
+            "color": "#0066cc",
+            "traits": [
+                "Cabalistic Rituals",
+                "Warpflame Gargoyles"
+            ]
+        },
+        "Alpha Legion": {
+            "color": "#336699",
+            "traits": [
+                "Hidden in Plain Sight",
+                "Hydra Doctrine"
+            ]
+        },
+        "Crimson Slaughter": {
+            "color": "#cc0000",
+            "traits": [
+                "Marked by Slaughter",
+                "Chaos Boon"
+            ]
+        },
+        "Red Corsairs": {
+            "color": "#cc0000",
+            "traits": [
+                "Renegade Raiders",
+                "Maelstrom Born"
+            ]
+        }
+    },
+    "Astra Militarum": {
+        "Cadian Shock Troops": {
+            "color": "#006600",
+            "traits": [
+                "Cadian Doctrine",
+                "Born Soldiers"
+            ]
+        },
+        "Catachan Jungle Fighters": {
+            "color": "#339933",
+            "traits": [
+                "Brutal Strength",
+                "Jungle Fighters"
+            ]
+        },
+        "Armageddon Steel Legion": {
+            "color": "#666666",
+            "traits": [
+                "Industrial Efficiency",
+                "Mobile Infantry"
+            ]
+        },
+        "Mordian Iron Guard": {
+            "color": "#000080",
+            "traits": [
+                "Parade Drill",
+                "Disciplined Ranks"
+            ]
+        },
+        "Tallarn Desert Raiders": {
+            "color": "#cc9900",
+            "traits": [
+                "Swift as the Wind",
+                "Ambush"
+            ]
+        },
+        "Vostroyan Firstborn": {
+            "color": "#cc0000",
+            "traits": [
+                "Firstborn Pride",
+                "Heirloom Weapons"
+            ]
+        },
+        "Valhallan Ice Warriors": {
+            "color": "#cccccc",
+            "traits": [
+                "For the Homeland",
+                "Grim Demeanour"
+            ]
+        },
+        "Krieg Death Korps": {
+            "color": "#404040",
+            "traits": [
+                "Death Before Dishonour",
+                "Cult of Sacrifice"
+            ]
+        },
+        "Elysian Drop Troops": {
+            "color": "#0066cc",
+            "traits": [
+                "Aerial Drop",
+                "Combat Drop"
+            ]
+        },
+        "Harakoni Warhawks": {
+            "color": "#ff6600",
+            "traits": [
+                "Grav-chute Assault",
+                "Void Warfare"
+            ]
+        }
+    },
+    "Orks": {
+        "Goffs": {
+            "color": "#000000",
+            "traits": [
+                "No Mukkin' About",
+                "Proper Killy"
+            ]
+        },
+        "Evil Sunz": {
+            "color": "#ff0000",
+            "traits": [
+                "Red Ones Go Fasta",
+                "Speedwaaagh!"
+            ]
+        },
+        "Bad Moons": {
+            "color": "#ffff00",
+            "traits": [
+                "Loads of Teef",
+                "Shooty Gits"
+            ]
+        },
+        "Deathskulls": {
+            "color": "#0066cc",
+            "traits": [
+                "Lucky Blue Gits",
+                "Salvage"
+            ]
+        },
+        "Blood Axes": {
+            "color": "#006600",
+            "traits": [
+                "Sneaky Gits",
+                "Kommando Tactics"
+            ]
+        },
+        "Snakebites": {
+            "color": "#663300",
+            "traits": [
+                "Old Ways",
+                "Tough as Squig Hide"
+            ]
+        },
+        "Freebooterz": {
+            "color": "#800080",
+            "traits": [
+                "Competitive Streak",
+                "Showing Off"
+            ]
+        }
+    },
+    "Aeldari": {
+        "Craftworld Ulthwé": {
+            "color": "#000000",
+            "traits": [
+                "Foresight of the Damned",
+                "Psyker Mastery"
+            ]
+        },
+        "Craftworld Biel-Tan": {
+            "color": "#006600",
+            "traits": [
+                "Swordwind",
+                "Martial Pride"
+            ]
+        },
+        "Craftworld Saim-Hann": {
+            "color": "#ff0000",
+            "traits": [
+                "Wild Riders",
+                "Speed of the Wind"
+            ]
+        },
+        "Craftworld Alaitoc": {
+            "color": "#0066cc",
+            "traits": [
+                "Masters of Concealment",
+                "Rangers"
+            ]
+        },
+        "Craftworld Iyanden": {
+            "color": "#ffff00",
+            "traits": [
+                "Stoic Endurance",
+                "Wraith Sight"
+            ]
+        },
+        "Craftworld Mymeara": {
+            "color": "#800080",
+            "traits": [
+                "Phoenix Lords",
+                "Ancient Glory"
+            ]
+        },
+        "Ynnari": {
+            "color": "#666666",
+            "traits": [
+                "Power from Death",
+                "Reborn Warhost"
+            ]
+        },
+        "Harlequins": {
+            "color": "#ff00ff",
+            "traits": [
+                "Rising Crescendo",
+                "Player of the Light"
+            ]
+        }
+    },
+    "Drukhari": {
+        "Kabal of the Black Heart": {
+            "color": "#000000",
+            "traits": [
+                "Thirst for Power",
+                "Flawless Raid"
+            ]
+        },
+        "Kabal of the Flayed Skull": {
+            "color": "#cccccc",
+            "traits": [
+                "Hyperswift Attack",
+                "Surgical Precision"
+            ]
+        },
+        "Kabal of the Obsidian Rose": {
+            "color": "#800080",
+            "traits": [
+                "Flawless Technique",
+                "Deadly Precision"
+            ]
+        },
+        "Kabal of the Poisoned Tongue": {
+            "color": "#006600",
+            "traits": [
+                "Masters of the Poisoned Arts",
+                "Alchemical Mastery"
+            ]
+        },
+        "Wych Cult of Strife": {
+            "color": "#ff0000",
+            "traits": [
+                "The Spectacle of Murder",
+                "No Method of Death Beyond Us"
+            ]
+        },
+        "Wych Cult of the Cursed Blade": {
+            "color": "#000080",
+            "traits": [
+                "Only War",
+                "Red Grief"
+            ]
+        },
+        "Coven of the Prophets of Flesh": {
+            "color": "#cc0066",
+            "traits": [
+                "Connoisseurs of Pain",
+                "Master Torturers"
+            ]
+        }
+    },
+    "T'au Empire": {
+        "T'au Sept": {
+            "color": "#cc9900",
+            "traits": [
+                "Coordinated Firepower",
+                "For the Greater Good"
+            ]
+        },
+        "Dal'yth Sept": {
+            "color": "#0066cc",
+            "traits": [
+                "Adaptive Camouflage",
+                "Territorial Hunters"
+            ]
+        },
+        "Sa'cea Sept": {
+            "color": "#ffffff",
+            "traits": [
+                "Calm Discipline",
+                "Firepower Efficiency"
+            ]
+        },
+        "Vior'la Sept": {
+            "color": "#ff0000",
+            "traits": [
+                "Strike Fast",
+                "Hot-blooded"
+            ]
+        },
+        "Bork'an Sept": {
+            "color": "#006600",
+            "traits": [
+                "Advanced Targeting Systems",
+                "Superior Craftsmanship"
+            ]
+        },
+        "Farsight Enclaves": {
+            "color": "#ff6600",
+            "traits": [
+                "Aggressive Tactics",
+                "Independent Spirit"
+            ]
+        },
+        "Ke'lshan Sept": {
+            "color": "#800080",
+            "traits": [
+                "Hardened by War",
+                "Ork Hunters"
+            ]
+        }
+    },
+    "Necrons": {
+        "Sautekh Dynasty": {
+            "color": "#ffff00",
+            "traits": [
+                "Relentless March",
+                "Hyperlogical Strategy"
+            ]
+        },
+        "Mephrit Dynasty": {
+            "color": "#ff6600",
+            "traits": [
+                "Solar Fury",
+                "Aggressive Expansion"
+            ]
+        },
+        "Novokh Dynasty": {
+            "color": "#ff0000",
+            "traits": [
+                "Awakened by Murder",
+                "Honour in Death"
+            ]
+        },
+        "Nephrekh Dynasty": {
+            "color": "#0066cc",
+            "traits": [
+                "Translocation Protocols",
+                "Phase Walker"
+            ]
+        },
+        "Nihilakh Dynasty": {
+            "color": "#006600",
+            "traits": [
+                "Obsessional Claim",
+                "Defensive Protocols"
+            ]
+        },
+        "Szerakhan Dynasty": {
+            "color": "#800080",
+            "traits": [
+                "The Eternal Conquerors",
+                "Immovable Phalanxes"
+            ]
+        }
+    },
+    "Tyranids": {
+        "Hive Fleet Leviathan": {
+            "color": "#800080",
+            "traits": [
+                "Swarming Masses",
+                "Synaptic Imperatives"
+            ]
+        },
+        "Hive Fleet Behemoth": {
+            "color": "#0066cc",
+            "traits": [
+                "Unstoppable Hunger",
+                "Endless Swarm"
+            ]
+        },
+        "Hive Fleet Kraken": {
+            "color": "#ff0000",
+            "traits": [
+                "Lightning Fast",
+                "Hyper-evolution"
+            ]
+        },
+        "Hive Fleet Jormungandr": {
+            "color": "#cc9900",
+            "traits": [
+                "Tunnel Networks",
+                "Subterranean Assault"
+            ]
+        },
+        "Hive Fleet Hydra": {
+            "color": "#006600",
+            "traits": [
+                "Adaptive Biology",
+                "Split and Consume"
+            ]
+        },
+        "Hive Fleet Gorgon": {
+            "color": "#339933",
+            "traits": [
+                "Toxic Miasma",
+                "Bio-acidic Assault"
+            ]
+        }
+    },
+    "Adeptus Mechanicus": {
+        "Forge World Mars": {
+            "color": "#ff0000",
+            "traits": [
+                "Red Planet's Blessing",
+                "Quest for Knowledge"
+            ]
+        },
+        "Forge World Lucius": {
+            "color": "#ffff00",
+            "traits": [
+                "Solar Blessing",
+                "Luminescent Blessing"
+            ]
+        },
+        "Forge World Agripinaa": {
+            "color": "#666666",
+            "traits": [
+                "Staunch Defenders",
+                "Fortress Logic"
+            ]
+        },
+        "Forge World Stygies VIII": {
+            "color": "#000080",
+            "traits": [
+                "Xenos Technology",
+                "Stygies Infiltrators"
+            ]
+        },
+        "Forge World Ryza": {
+            "color": "#ff6600",
+            "traits": [
+                "Plasma Specialists",
+                "Red in Cog and Claw"
+            ]
+        },
+        "Forge World Graia": {
+            "color": "#0066cc",
+            "traits": [
+                "Refusal to Yield",
+                "Graia's Favour"
+            ]
+        },
+        "Forge World Metalica": {
+            "color": "#cccccc",
+            "traits": [
+                "Relentless March",
+                "Metalican Lung"
+            ]
+        }
+    },
+    "Adepta Sororitas": {
+        "Order of Our Martyred Lady": {
+            "color": "#000000",
+            "traits": [
+                "Suffer Not the Unclean",
+                "Hand of the Emperor"
+            ]
+        },
+        "Order of the Valorous Heart": {
+            "color": "#ff0000",
+            "traits": [
+                "Impervious to Pain",
+                "Stoic Endurance"
+            ]
+        },
+        "Order of the Bloody Rose": {
+            "color": "#cc0000",
+            "traits": [
+                "Quick to Anger",
+                "Zealous Fervour"
+            ]
+        },
+        "Order of the Ebon Chalice": {
+            "color": "#800080",
+            "traits": [
+                "Spiritual Leaders",
+                "Holy Rage"
+            ]
+        },
+        "Order of the Argent Shroud": {
+            "color": "#cccccc",
+            "traits": [
+                "Defenders of the Faith",
+                "Aegis of Faith"
+            ]
+        },
+        "Order of the Sacred Rose": {
+            "color": "#ff69b4",
+            "traits": [
+                "Purity of Faith",
+                "Healing Balm"
+            ]
+        }
+    },
+    "Imperial Knights": {
+        "House Terryn": {
+            "color": "#0066cc",
+            "traits": [
+                "Gallant Warriors",
+                "Glory in Honour"
+            ]
+        },
+        "House Cadmus": {
+            "color": "#006600",
+            "traits": [
+                "Hunters of the Foe",
+                "Noble Combatants"
+            ]
+        },
+        "House Griffith": {
+            "color": "#ffff00",
+            "traits": [
+                "Chivalric Oaths",
+                "Knight Seneschal"
+            ]
+        },
+        "House Hawkshroud": {
+            "color": "#ff6600",
+            "traits": [
+                "Oathkeepers",
+                "Duty Unto Death"
+            ]
+        },
+        "House Mortan": {
+            "color": "#666666",
+            "traits": [
+                "Close-quarters Killers",
+                "Slayers of Beasts"
+            ]
+        },
+        "House Raven": {
+            "color": "#000000",
+            "traits": [
+                "Relentless Advance",
+                "Machine Focus"
+            ]
+        },
+        "House Taranis": {
+            "color": "#ff0000",
+            "traits": [
+                "Red Planet's Favour",
+                "Blessed by the Omnissiah"
+            ]
+        }
+    },
+    "Chaos Knights": {
+        "House Herpetrax": {
+            "color": "#800080",
+            "traits": [
+                "Daemonic Surge",
+                "Warp Haunted"
+            ]
+        },
+        "House Lucaris": {
+            "color": "#cc0000",
+            "traits": [
+                "Perfidious Machine Spirits",
+                "Chaos Ascendant"
+            ]
+        },
+        "House Korvax": {
+            "color": "#000000",
+            "traits": [
+                "Melee Specialists",
+                "Favour of the Dark Gods"
+            ]
+        },
+        "Iconoclast Households": {
+            "color": "#ff0000",
+            "traits": [
+                "Anarchic Fury",
+                "Spiteful Demise"
+            ]
+        },
+        "Infernal Households": {
+            "color": "#ff6600",
+            "traits": [
+                "Daemonic Power",
+                "Infernal Presence"
+            ]
+        }
+    },
+    "Chaos Daemons": {
+        "Khorne Daemons": {
+            "color": "#ff0000",
+            "traits": [
+                "Blood for the Blood God",
+                "Frenzied Devotion"
+            ]
+        },
+        "Tzeentch Daemons": {
+            "color": "#0066cc",
+            "traits": [
+                "Change Incarnate",
+                "Warpfire"
+            ]
+        },
+        "Nurgle Daemons": {
+            "color": "#006600",
+            "traits": [
+                "Disgustingly Resilient",
+                "Plague Ridden"
+            ]
+        },
+        "Slaanesh Daemons": {
+            "color": "#ff00ff",
+            "traits": [
+                "Excess of Violence",
+                "Quicksilver Swiftness"
+            ]
+        },
+        "Undivided Daemons": {
+            "color": "#333333",
+            "traits": [
+                "Chaos Ascendant",
+                "Warp Entity"
+            ]
+        }
+    },
+    "Genestealer Cults": {
+        "Cult of the Four-Armed Emperor": {
+            "color": "#800080",
+            "traits": [
+                "Brood Brothers",
+                "Perfect Ambush"
+            ]
+        },
+        "Twisted Helix": {
+            "color": "#006600",
+            "traits": [
+                "Experimental Subjects",
+                "Monstrous Bio-horrors"
+            ]
+        },
+        "Rusted Claw": {
+            "color": "#cc9900",
+            "traits": [
+                "Industrial Affinity",
+                "Scavenged Weaponry"
+            ]
+        },
+        "Pauper Princes": {
+            "color": "#666666",
+            "traits": [
+                "Wealth of Worlds",
+                "Oppressor's Bane"
+            ]
+        },
+        "Bladed Cog": {
+            "color": "#ff6600",
+            "traits": [
+                "Tech-adepts",
+                "Blessed Machines"
+            ]
+        }
+    },
+    "Leagues of Votann": {
+        "Greater Thurian League": {
+            "color": "#ff6600",
+            "traits": [
+                "Ancestral Judgement",
+                "A Grudge to Settle"
+            ]
+        },
+        "Ymyr Conglomerate": {
+            "color": "#0066cc",
+            "traits": [
+                "Ruthless Efficiency",
+                "Void Prospectors"
+            ]
+        },
+        "Trans-Hyperian Alliance": {
+            "color": "#cc9900",
+            "traits": [
+                "Mercenary Nature",
+                "Adaptive Strategy"
+            ]
+        },
+        "Seran-Tok Mercantile": {
+            "color": "#006600",
+            "traits": [
+                "Trade Mastery",
+                "Profit Above All"
+            ]
+        },
+        "Kronus Hegemony": {
+            "color": "#800080",
+            "traits": [
+                "Stronghold Assault",
+                "Fortress Worlds"
+            ]
+        }
+    },
+    "World Eaters": {
+        "Betrayer's Nails": {
+            "color": "#ff0000",
+            "traits": [
+                "Butcher's Nails",
+                "Blood-mad Berzerkers"
+            ]
+        },
+        "Butcherhorde": {
+            "color": "#cc0000",
+            "traits": [
+                "Red Tide",
+                "Endless Slaughter"
+            ]
+        },
+        "Red Tide": {
+            "color": "#800000",
+            "traits": [
+                "Gore-slick Ground",
+                "Tides of Blood"
+            ]
+        },
+        "Skulltakers": {
+            "color": "#ff6666",
+            "traits": [
+                "Skull Harvest",
+                "Champions of Khorne"
+            ]
+        }
+    },
+    "Imperial Agents": {
+        "Inquisition": {
+            "color": "#000000",
+            "traits": [
+                "Authority of the Throne",
+                "Fearless Investigation"
+            ]
+        },
+        "Officio Assassinorum": {
+            "color": "#666666",
+            "traits": [
+                "Precision Killers",
+                "Death Cult"
+            ]
+        },
+        "Adeptus Arbites": {
+            "color": "#0066cc",
+            "traits": [
+                "Judge, Jury, Executioner",
+                "Law and Order"
+            ]
+        },
+        "Rogue Traders": {
+            "color": "#ffff00",
+            "traits": [
+                "Warrant of Trade",
+                "Into the Unknown"
+            ]
+        },
+        "Deathwatch": {
+            "color": "#000000",
+            "traits": [
+                "Xenos Hunters",
+                "Kill Team Specialists"
+            ]
+        },
+        "Sisters of Silence": {
+            "color": "#cccccc",
+            "traits": [
+                "Psychic Abomination",
+                "Silent Sisterhood"
+            ]
+        }
+    }
+}
