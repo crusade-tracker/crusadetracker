@@ -1,34 +1,6 @@
 {
-  "Physical Scars": {
-    "Grievous Injury": {
-      "description": "This unit has suffered a grievous injury. Reduce its Movement characteristic by 1\"."
-    },
-    "Maimed": {
-      "description": "This unit has lost a limb or sustained a permanent disfigurement. Reduce its Attacks characteristic by 1."
-    },
-    "Blind": {
-      "description": "This unit has been blinded in one eye or sustained other vision damage. Reduce its Ballistic Skill and Weapon Skill by 1 (to a maximum of 6+)."
-    },
-    "Limping": {
-      "description": "This unit has a permanent leg injury. -1 to Advance and Charge rolls."
-    },
-    "Scarred Visage": {
-      "description": "This unit's face is disfigured by a prominent scar. No effect on rules, but a grim reminder of battle."
-    }
-  },
-  "Mental Scars": {
-    "Shell Shock": {
-      "description": "This unit is traumatized by the horrors of war. -1 to Leadership characteristic."
-    },
-    "Haunted": {
-      "description": "This unit is haunted by its past actions. -1 to Combat Attrition tests."
-    },
-    "Phobia": {
-      "description": "This unit has developed a severe phobia. Choose one enemy Faction. This unit suffers -1 to hit rolls when attacking units from that Faction."
-    },
-    "Obsession": {
-      "description": "This unit has developed a grim obsession. +1 to wound rolls against Characters, but -1 to Leadership."
-    },
-    "Cowardice": "This unit's nerve has broken. Cannot perform Heroic Interventions."
+  "Test scar": {
+    "type": "Physical",
+    "description": "Test scar entry"
   }
 }
