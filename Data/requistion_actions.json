@@ -1,0 +1,38 @@
+{
+  "Fresh Recruits": {
+    "cost": "1 RP per PL",
+    "description": "Add a new unit to your Order of Battle. Cost varies by unit Power Level."
+  },
+  "Combat Revival": {
+    "cost": 1,
+    "description": "Return a destroyed unit to your Order of Battle with 1 Battle Scar."
+  },
+  "Increase Supply Limit": {
+    "cost": 1,
+    "description": "Increase your Crusade force's Supply Limit by 10 PL (200 points)."
+  },
+  "Rearm and Resupply": {
+    "cost": 1,
+    "description": "Remove one Battle Scar from a unit in your Order of Battle."
+  },
+  "Repair and Recuperate": {
+    "cost": "1-3",
+    "description": "Restore lost wounds or models to a unit. Cost varies by extent of repairs."
+  },
+  "Specialist Reinforcements": {
+    "cost": 1,
+    "description": "Add one model to an existing unit (up to maximum unit size)."
+  },
+  "Weapon Modifications": {
+    "cost": "1-2",
+    "description": "Replace or upgrade a weapon on a unit. Cost varies by weapon type."
+  },
+  "Equipment Upgrades": {
+    "cost": 1,
+    "description": "Add additional wargear or equipment to a unit."
+  },
+  "Psychic Fortitudes": {
+    "cost": 1,
+    "description": "PSYKER CHARACTER units only. Gain additional psychic abilities."
+  }
+}
