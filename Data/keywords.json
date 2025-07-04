@@ -1,0 +1,148 @@
+{
+  "keywords": [
+    {
+      "name": "ANTI-KEYWORD X+",
+      "description": "Each time an attack is made with this weapon against a target with the keyword, a successful wound roll is equal to or greater than X+."
+    },
+    {
+      "name": "ASSAULT",
+      "description": "Can be shot after advancing."
+    },
+    {
+      "name": "BATTLE-SHOCK",
+      "description": "Failing means the unit can\u2019t use Objective Control, use Stratagems, or Fall Back."
+    },
+    {
+      "name": "DEADLY DEMISE X",
+      "description": "When this model is destroyed, roll one D6 for each model within X\". On a 6, that model suffers a mortal wound."
+    },
+    {
+      "name": "DEEP STRIKE",
+      "description": "Can arrive as Reinforcements 9\" away from all enemy models."
+    },
+    {
+      "name": "DEVASTATING WOUNDS",
+      "description": "Critical Wounds deal mortal wounds instead of regular damage."
+    },
+    {
+      "name": "DESPERATE ESCAPE",
+      "description": "Each time a model in this unit makes a Desperate Escape test, it is destroyed on a roll of 1-2."
+    },
+    {
+      "name": "EMPOWERED BY CHAOS",
+      "description": "When this unit is selected to fight, it can make a number of additional attacks equal to its Empowered value."
+    },
+    {
+      "name": "FEEL NO PAIN X+",
+      "description": "Each time a model would lose a wound, roll one D6. If the result is equal to or greater than X, that wound is not lost."
+    },
+    {
+      "name": "FIGHTS FIRST",
+      "description": "This unit\u2019s attacks are resolved first in the Fight phase if it has not already fought."
+    },
+    {
+      "name": "HAZARDOUS",
+      "description": "Each time a unit is selected to shoot or fight, roll one D6 for each model attacking with a hazardous weapon. On a 1, that model is destroyed."
+    },
+    {
+      "name": "HEAVY",
+      "description": "If a unit Remains Stationary, add 1 to Hit rolls with this weapon until end of phase."
+    },
+    {
+      "name": "IGNORES COVER",
+      "description": "Attacks made with this weapon ignore the benefits of cover."
+    },
+    {
+      "name": "INDIRECT FIRE",
+      "description": "Can target units not visible to the bearer. Subtract 1 from Hit rolls and enemy receives Benefit of Cover."
+    },
+    {
+      "name": "INVULNERABLE SAVE X+",
+      "description": "Each time a saving throw is made, use invulnerable save instead of normal save if it's better."
+    },
+    {
+      "name": "LANCE",
+      "description": "If this unit made a Charge move this turn, improve this weapon's Strength and AP by 1."
+    },
+    {
+      "name": "LEADER",
+      "description": "Can attach to a Bodyguard unit during deployment."
+    },
+    {
+      "name": "LETHAL HITS",
+      "description": "Critical Hits automatically wound the target."
+    },
+    {
+      "name": "LONE OPERATIVE",
+      "description": "Cannot be targeted by ranged attacks unless closest eligible target or within 12\"."
+    },
+    {
+      "name": "MELTA X",
+      "description": "If target is within half range, add X to the weapon\u2019s Damage characteristic."
+    },
+    {
+      "name": "OC (OBJECTIVE CONTROL)",
+      "description": "The value of a model when controlling an objective marker."
+    },
+    {
+      "name": "ONE SHOT",
+      "description": "This weapon can only be fired once per battle."
+    },
+    {
+      "name": "PISTOL",
+      "description": "Can be shot while in Engagement Range of enemy units."
+    },
+    {
+      "name": "PRECISION",
+      "description": "Can target CHARACTER models even if not closest target."
+    },
+    {
+      "name": "RAPID FIRE X",
+      "description": "Double the number of attacks made with this weapon if the bearer is within half range."
+    },
+    {
+      "name": "RAPID INGRESS",
+      "description": "Can be set up as Reinforcement in opponent\u2019s Movement phase."
+    },
+    {
+      "name": "RE-ROLL X",
+      "description": "Can re-roll a specified type of roll (Hit, Wound, Damage, etc)."
+    },
+    {
+      "name": "REVEALING INFILTRATORS",
+      "description": "This unit can be set up anywhere on the battlefield more than 9\" away from enemy deployment zone and enemy models."
+    },
+    {
+      "name": "SCOUT X",
+      "description": "After deployment but before first turn begins, can make a Normal move of up to X\"."
+    },
+    {
+      "name": "SUSTAINED HITS X",
+      "description": "Each Critical Hit scores X additional hits."
+    },
+    {
+      "name": "STEALTH",
+      "description": "Subtract 1 from the Hit roll for attacks made against this unit."
+    },
+    {
+      "name": "TORRENT",
+      "description": "This weapon\u2019s attacks automatically hit the target."
+    },
+    {
+      "name": "TRANSPORT",
+      "description": "Can carry specified models inside. Units can disembark before moving."
+    },
+    {
+      "name": "TWIN-LINKED",
+      "description": "You can re-roll the attack\u2019s Wound roll."
+    },
+    {
+      "name": "WEAPON SKILL / BALLISTIC SKILL",
+      "description": "Used to determine if an attack hits in melee/ranged combat."
+    },
+    {
+      "name": "WOUND",
+      "description": "Used to determine if a hit successfully wounds a target."
+    }
+  ]
+}
