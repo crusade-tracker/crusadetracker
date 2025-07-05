@@ -1,148 +1,136 @@
 {
   "keywords": [
     {
-      "name": "ANTI-KEYWORD X+",
-      "description": "Each time an attack is made with this weapon against a target with the keyword, a successful wound roll is equal to or greater than X+."
+      "name": "Fly",
+      "description": "This unit can ignore other models (excluding Aircraft) and terrain when moving, and can Fall Back over enemy models."
     },
     {
-      "name": "ASSAULT",
+      "name": "Lone Operative",
+      "description": "Unless this model is an Aircraft, it can only be targeted by ranged attacks if the attacking model is within 12 inches."
+    },
+    {
+      "name": "Infiltrators",
+      "description": "This unit can be set up anywhere on the battlefield that is more than 9 inches from the enemy deployment zone and any enemy models."
+    },
+    {
+      "name": "Leader",
+      "description": "This unit can be attached to another unit to form a single combined unit, gaining its abilities."
+    },
+    {
+      "name": "Rapid Deployment",
+      "description": "Units with this keyword are designed for rapid redeployment, often allowing for special setup rules or movement."
+    },
+    {
+      "name": "Scout X",
+      "description": "Before the first turn, this unit can make a Normal Move up to X inches."
+    },
+    {
+      "name": "Stealth",
+      "description": "Each time a ranged attack targets this unit, the attacking model's Hit roll suffers a -1 penalty."
+    },
+    {
+      "name": "Character",
+      "description": "A single model unit, often with special abilities, and typically eligible to be a Leader."
+    },
+    {
+      "name": "Chaos",
+      "description": "A Faction Keyword representing forces aligned with the Ruinous Powers."
+    },
+    {
+      "name": "Daemon",
+      "description": "A Faction Keyword representing creatures from the Warp."
+    },
+    {
+      "name": "Infantry",
+      "description": "A unit composed of individual foot soldiers, typically able to move through terrain easily."
+    },
+    {
+      "name": "Grenades",
+      "description": "This unit can make a Grenade attack once per battle during its controlling player's Shooting phase."
+    },
+    {
+      "name": "Beast",
+      "description": "A unit type representing non-humanoid creatures, often with fast movement."
+    },
+    {
+      "name": "Psyker",
+      "description": "A model capable of wielding psychic powers, often gaining special abilities or attacks."
+    },
+    {
+      "name": "Epic Hero",
+      "description": "A unique, named Character with powerful abilities, only one of each Epic Hero can be included in an army."
+    },
+    {
+      "name": "Primarch",
+      "description": "A Faction Keyword representing the powerful, legendary leaders of the Space Marine Legions or Daemon Primarchs."
+    },
+    {
+      "name": "Battle Line",
+      "description": "These units represent the core of an army and can often be taken in larger numbers or fulfill specific detachment requirements."
+    },
+    {
+      "name": "Vehicle",
+      "description": "A unit type representing tanks, walkers, and other armored conveyances."
+    },
+    {
+      "name": "Transport",
+      "description": "A unit capable of carrying other units within it."
+    },
+    {
+      "name": "Smoke",
+      "description": "A unit with this ability can use the Smoke (Aura) stratagem without spending a CP, providing a -1 to hit for ranged attacks against it."
+    },
+    {
+      "name": "Aircraft",
+      "description": "A unit that represents a flying vehicle, often with unique movement and targeting rules."
+    },
+    {
+      "name": "Walker",
+      "description": "A unit type representing bipedal or multi-legged combat machines."
+    },
+    {
+      "name": "Dedicated Transport",
+      "description": "A Transport unit that can only carry specific units, often linked to the unit's Faction Keyword."
+    },
+    {
+      "name": "Summoned",
+      "description": "Units that are brought onto the battlefield during the game, rather than being deployed at the start."
+    },
+    {
+      "name": "Mounted",
+      "description": "A unit representing a model on a mount, often with enhanced movement."
+    },
+    {
+      "name": "Imperium",
+      "description": "A Faction Keyword representing the various human and allied forces of the Imperium of Man."
+    },
+    {
+      "name": "Jump Pack",
+      "description": "A unit equipped with a jump pack, granting enhanced movement and the ability to ignore terrain."
+    },
+    {
+      "name": "Battlesuit",
+      "description": "A unit representing an armored power suit, often with unique weapon and movement capabilities."
+    },
+    {
+      "name": "Assault",
       "description": "Can be shot after advancing."
     },
     {
-      "name": "BATTLE-SHOCK",
-      "description": "Failing means the unit can\u2019t use Objective Control, use Stratagems, or Fall Back."
+      "name": "Deadly Demise X",
+      "description": "When this model is destroyed, roll one D6. On a 6, each unit within 6\" suffers 'x' mortal wounds."
     },
     {
-      "name": "DEADLY DEMISE X",
-      "description": "When this model is destroyed, roll one D6 for each model within X\". On a 6, that model suffers a mortal wound."
+      "name": "Fights First",
+      "description": "If this unit is involved in a combat, it fights before any enemy units that do not have a 'Fights First' ability, even if they charged."
     },
     {
-      "name": "DEEP STRIKE",
-      "description": "Can arrive as Reinforcements 9\" away from all enemy models."
+      "name": "Firing Deck X",
+      "description": "When this Transport unit is chosen to shoot, up to X models embarked within it can also shoot as if they were not embarked."
     },
     {
-      "name": "DEVASTATING WOUNDS",
-      "description": "Critical Wounds deal mortal wounds instead of regular damage."
-    },
-    {
-      "name": "DESPERATE ESCAPE",
-      "description": "Each time a model in this unit makes a Desperate Escape test, it is destroyed on a roll of 1-2."
-    },
-    {
-      "name": "EMPOWERED BY CHAOS",
-      "description": "When this unit is selected to fight, it can make a number of additional attacks equal to its Empowered value."
-    },
-    {
-      "name": "FEEL NO PAIN X+",
-      "description": "Each time a model would lose a wound, roll one D6. If the result is equal to or greater than X, that wound is not lost."
-    },
-    {
-      "name": "FIGHTS FIRST",
-      "description": "This unit\u2019s attacks are resolved first in the Fight phase if it has not already fought."
-    },
-    {
-      "name": "HAZARDOUS",
-      "description": "Each time a unit is selected to shoot or fight, roll one D6 for each model attacking with a hazardous weapon. On a 1, that model is destroyed."
-    },
-    {
-      "name": "HEAVY",
-      "description": "If a unit Remains Stationary, add 1 to Hit rolls with this weapon until end of phase."
-    },
-    {
-      "name": "IGNORES COVER",
-      "description": "Attacks made with this weapon ignore the benefits of cover."
-    },
-    {
-      "name": "INDIRECT FIRE",
-      "description": "Can target units not visible to the bearer. Subtract 1 from Hit rolls and enemy receives Benefit of Cover."
-    },
-    {
-      "name": "INVULNERABLE SAVE X+",
-      "description": "Each time a saving throw is made, use invulnerable save instead of normal save if it's better."
-    },
-    {
-      "name": "LANCE",
-      "description": "If this unit made a Charge move this turn, improve this weapon's Strength and AP by 1."
-    },
-    {
-      "name": "LEADER",
-      "description": "Can attach to a Bodyguard unit during deployment."
-    },
-    {
-      "name": "LETHAL HITS",
-      "description": "Critical Hits automatically wound the target."
-    },
-    {
-      "name": "LONE OPERATIVE",
-      "description": "Cannot be targeted by ranged attacks unless closest eligible target or within 12\"."
-    },
-    {
-      "name": "MELTA X",
-      "description": "If target is within half range, add X to the weapon\u2019s Damage characteristic."
-    },
-    {
-      "name": "OC (OBJECTIVE CONTROL)",
-      "description": "The value of a model when controlling an objective marker."
-    },
-    {
-      "name": "ONE SHOT",
-      "description": "This weapon can only be fired once per battle."
-    },
-    {
-      "name": "PISTOL",
-      "description": "Can be shot while in Engagement Range of enemy units."
-    },
-    {
-      "name": "PRECISION",
-      "description": "Can target CHARACTER models even if not closest target."
-    },
-    {
-      "name": "RAPID FIRE X",
-      "description": "Double the number of attacks made with this weapon if the bearer is within half range."
-    },
-    {
-      "name": "RAPID INGRESS",
-      "description": "Can be set up as Reinforcement in opponent\u2019s Movement phase."
-    },
-    {
-      "name": "RE-ROLL X",
-      "description": "Can re-roll a specified type of roll (Hit, Wound, Damage, etc)."
-    },
-    {
-      "name": "REVEALING INFILTRATORS",
-      "description": "This unit can be set up anywhere on the battlefield more than 9\" away from enemy deployment zone and enemy models."
-    },
-    {
-      "name": "SCOUT X",
-      "description": "After deployment but before first turn begins, can make a Normal move of up to X\"."
-    },
-    {
-      "name": "SUSTAINED HITS X",
-      "description": "Each Critical Hit scores X additional hits."
-    },
-    {
-      "name": "STEALTH",
-      "description": "Subtract 1 from the Hit roll for attacks made against this unit."
-    },
-    {
-      "name": "TORRENT",
-      "description": "This weapon\u2019s attacks automatically hit the target."
-    },
-    {
-      "name": "TRANSPORT",
-      "description": "Can carry specified models inside. Units can disembark before moving."
-    },
-    {
-      "name": "TWIN-LINKED",
-      "description": "You can re-roll the attack\u2019s Wound roll."
-    },
-    {
-      "name": "WEAPON SKILL / BALLISTIC SKILL",
-      "description": "Used to determine if an attack hits in melee/ranged combat."
-    },
-    {
-      "name": "WOUND",
-      "description": "Used to determine if a hit successfully wounds a target."
+      "name": "Heavy",
+      "description": "If this weapon is fired by a stationary model, its Hit roll is improved by 1."
     }
   ]
 }
