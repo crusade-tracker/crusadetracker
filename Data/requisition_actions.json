@@ -1,38 +1,50 @@
 {
-  "Fresh Recruits": {
-    "cost": "1 RP per PL",
-    "description": "Add a new unit to your Order of Battle. Cost varies by unit Power Level."
-  },
-  "Combat Revival": {
-    "cost": 1,
-    "description": "Return a destroyed unit to your Order of Battle with 1 Battle Scar."
-  },
-  "Increase Supply Limit": {
-    "cost": 1,
-    "description": "Increase your Crusade force's Supply Limit by 10 PL (200 points)."
-  },
-  "Rearm and Resupply": {
-    "cost": 1,
-    "description": "Remove one Battle Scar from a unit in your Order of Battle."
-  },
-  "Repair and Recuperate": {
-    "cost": "1-3",
-    "description": "Restore lost wounds or models to a unit. Cost varies by extent of repairs."
-  },
-  "Specialist Reinforcements": {
-    "cost": 1,
-    "description": "Add one model to an existing unit (up to maximum unit size)."
-  },
-  "Weapon Modifications": {
-    "cost": "1-2",
-    "description": "Replace or upgrade a weapon on a unit. Cost varies by weapon type."
-  },
-  "Equipment Upgrades": {
-    "cost": 1,
-    "description": "Add additional wargear or equipment to a unit."
-  },
-  "Psychic Fortitudes": {
-    "cost": 1,
-    "description": "PSYKER CHARACTER units only. Gain additional psychic abilities."
-  }
+  "requisitions": [
+    {
+      "name": "Increase Supply Limit",
+      "cost": "1RP",
+      "description": "Information uncovered by your forces has revealed the growing importance of this war zone and the increasing threat posed by enemies. In response, high command has decided to accelerate your target date for reinforcement.",
+      "effect": "Purchase this Requisition at any time. Increase your Crusade force's Supply Limit by 500 points."
+    },
+    {
+      "name": "Rearm and Resupply",
+      "cost": "1RP",
+      "description": "The changing nature of this war zone and the demands from high command necessitate the opening of arms caches and wargear vaults to ensure your warriors face the enemy with the most effective killing tools.",
+      "effect": "Purchase this Requisition before a battle. Select one unit from your Order of Battle. You can change any weapon or wargear models in the unit are equipped with as described on that unit's datasheet. If you replace a weapon that is a Crusade Relic or a weapon upgraded by Weapon Modifications (pg 11), that Crusade Relic or any Weapon Modifications are lost. Recalculate the unit's points value as a result of any of these changes and update its Crusade card. You cannot make any changes that would cause you to exceed your Supply Limit."
+    },
+    {
+      "name": "Renowned Heroes",
+      "cost": "1-3RP",
+      "description": "The greatest warriors, most cunning tacticians and seers lead their forces to carry forward upon their zeal and power of their Order of Battle, allowing others to follow in their wake and benefit from their victories.",
+      "effect": "When you first start a Crusade force, you can purchase this Requisition the first time you add a CHARACTER unit to your Order of Battle. After that point, you can purchase this Requisition each time a unit from your Order of Battle gains a rank. In either case, you cannot select an Epic Hero to benefit from this Requisition unless you selected that CHARACTER either the Destroyer of Worlds or Lord of Deceit faction (pg 14). You can select one Enhancement that unit has access to (if using this Requisition when that unit gains a rank, this is instead of it gaining a Battle Honour). When doing so, that unit has access to any Enhancements described within any Codex or Codex Supplement your army uses. Once you have selected any Battle Honour, you can pay 1RP to add an additional Enhancement that your selected unit can access to (if the selected Enhancement replaces a weapon that is a Crusade Relic or a weapon upgraded by Weapon Modifications (pg 11), that Crusade Relic or Weapon Modifications are lost. Recalculate the unit's points value as a result of gaining this Enhancement and update its Crusade card. You cannot make any changes that would cause you to exceed your Supply Limit). This Requisition costs 1RP plus 1 additional RP for each other Enhancement that your Order of Battle contains (to a maximum of 3RP)."
+    },
+    {
+      "name": "Repair and Recuperate",
+      "cost": "1-5RP",
+      "description": "Amid gene-touched medicae facilities and dangerous forge-shrines, the damage wrought by the foe upon your warriors and engines is tended. Your forces step forth with renewed vengeance.",
+      "effect": "Purchase this Requisition after a battle. Select one unit from your Order of Battle that has one or more Battle Scars. Select one of that unit's Battle Scars and remove it from its Crusade card (if each Battle Scar is removed, that unit's Crusade points value is reduced accordingly). This Requisition costs 1RP plus 1 additional RP for each Battle Honour that unit has (to a maximum of 5RP)."
+    },
+    {
+      "name": "Legendary Veterans",
+      "cost": "3RP",
+      "description": "Occasionally, a group of warriors will climb the ranks across a score of battles, forging a legendary reputation that is known by friend and foe. Such veterans possess skills and honours to rival those of the most gloried heroes.",
+      "effect": "Purchase this Requisition when a unit from your Order of Battle (excluding CHARACTER units) reaches 5OXP. That unit's Experience points total is no longer limited to a maximum of 30 and it can now be promoted above the Battle-hardened rank. In addition, the maximum number of Battle Honours that unit can have is increased two."
+    },
+    {
+      "name": "Fresh Recruits",
+      "cost": "1-4RP",
+      "description": "As wars grind on into deadlock, attrition takes its toll on your forces. A group of willing souls step into these experienced they fight like veterans and speak with the voices of honour upon that result speak for themselves.",
+      "effect": "Purchase this Requisition at any time. Select one unit from your Order of Battle. You can add additional models to that unit, up to that unit's maximum unit size. Recalculate the unit's points value as a result of any of these changes and update its Crusade card. You cannot make any changes that would cause you to exceed your Supply Limit. This Requisition costs 1RP plus 1 additional RP for every 2 Battle Honours that unit has, rounding up (to a maximum of 4RP)."
+    }
+  ],
+  "examples": [
+    {
+      "title": "Renowned Heroes Example",
+      "description": "If this Requisition was used to give a unit an Enhancement and one other unit in your Order of Battle already has an Enhancement, it would cost 2RP."
+    },
+    {
+      "title": "Fresh Recruits Example",
+      "description": "If this Requisition was used to add additional models to a unit with three Battle Honours, it would cost 3RP."
+    }
+  ]
 }
