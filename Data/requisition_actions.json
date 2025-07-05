@@ -36,15 +36,7 @@
       "description": "As wars grind on into deadlock, attrition takes its toll on your forces. A group of willing souls step into these experienced they fight like veterans and speak with the voices of honour upon that result speak for themselves.",
       "effect": "Purchase this Requisition at any time. Select one unit from your Order of Battle. You can add additional models to that unit, up to that unit's maximum unit size. Recalculate the unit's points value as a result of any of these changes and update its Crusade card. You cannot make any changes that would cause you to exceed your Supply Limit. This Requisition costs 1RP plus 1 additional RP for every 2 Battle Honours that unit has, rounding up (to a maximum of 4RP)."
     }
-  ],
-  "examples": [
-    {
-      "title": "Renowned Heroes Example",
-      "description": "If this Requisition was used to give a unit an Enhancement and one other unit in your Order of Battle already has an Enhancement, it would cost 2RP."
-    },
-    {
-      "title": "Fresh Recruits Example",
-      "description": "If this Requisition was used to add additional models to a unit with three Battle Honours, it would cost 3RP."
-    }
+  
+    
   ]
 }
